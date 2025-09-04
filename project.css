@@ -1,0 +1,59 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FAF4EE;
+  color: #4E342E;
+}
+
+.navbar {
+  background-color: #fff;
+}
+/* navbar */
+.navbar-nav {  
+    gap: 20px;
+}
+
+.btn-primary {
+  background-color: #D9A5A0;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #b6827e;
+  
+}
+
+.hero {
+  background-color: #F7ECE8;
+    padding: 80px 0;
+    
+}
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+}
+
+.card img {
+  border-radius: 8px;
+  width: auto;  /* when i added this i made ipad air run well in responsive */
+  height: auto ; /* when i added this i made ipad air run well in responsive */
+}
+
+.section-title {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+img {
+  transition: transform 0.3s ease;
+}
+img:hover {
+  transform: scale(1.05); 
+}
+

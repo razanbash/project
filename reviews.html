@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Reviews</title>
+  <link rel="stylesheet" href="reviews.css">
+</head>
+<body>
+
+    <nav class="navbar">
+    <div class="container">
+    <a class="navbar-brand" href="index.html">Roselin Coffee</a>
+    <ul class="navbar-nav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="order.html">Order Now</a></li>
+    <li><a href="login.html">Login</a></li>
+    </ul>
+  </div>
+</nav>
+  <section class="reviews">
+    <h1>Customer Reviews</h1>
+    <div class="comment">
+    <div class="avatar">A</div>
+    <div class="comment-content">
+    <h4>Ahmad <span class="date">2 days ago</span></h4>
+    <p>Best coffee in town! I always start my day here ☕</p>
+    <button id="likeBtn" onclick="addLike(this)">Like ❤️ <span>0</span></button>
+    </div>
+    </div>
+
+    <!-- ---------------------- -->
+    <div class="comment">
+    <div class="avatar">S</div>
+    <div class="comment-content">
+    <h4>Sara <span class="date">1 week ago</span></h4>
+    <p>Loved the cozy vibes and friendly staff. Highly recommend!</p>
+    <button id="likeBtn" onclick="addLike(this)">Like ❤️ <span>0</span></button>
+    </div>
+    </div>
+   <!-- -------------------------- -->
+    <div class="comment">
+    <div class="avatar">O</div>
+    <div class="comment-content">
+    <h4>Omar <span class="date">3 weeks ago</span></h4>
+    <p>Delicious desserts with perfect coffee. Will come again.</p>
+    <button id="likeBtn" onclick="addLike(this)">Like ❤️ <span>0</span></button>
+    </div>
+    </div>
+ <!-- -------------------------- -->
+    <div class="comment">
+    <div class="avatar">M</div>
+    <div class="comment-content">
+    <h4>Mohammed <span class="date">1 month ago</span></h4>
+    <p>Great atmosphere and friendly baristas. Perfect place to relax.</p>
+    <button id="likeBtn" onclick="addLike(this)">Like ❤️ <span>0</span></button>
+    </div>
+    </div>
+<!-- -------------------------- -->
+    <div class="comment">
+    <div class="avatar">L</div>
+    <div class="comment-content">
+    <h4>Leena <span class="date">1 month ago</span></h4>
+    <p>I tried the caramel latte and it was absolutely amazing!.</p>
+    <button id="likeBtn" onclick="addLike(this)">Like ❤️ <span>0</span></button>
+    </div>
+    </div>
+ <!-- -------------------------- -->
+    <div class="comment">
+    <div class="avatar">Z</div>
+    <div class="comment-content">
+    <h4>Zain<span class="date">2 month ago</span></h4>
+    <p>Best place to hang out with friends and enjoy quality drinks.</p>
+    <button id="likeBtn"  onclick="addLike(this)">Like ❤️ <span>0</span></button>
+    </div>
+    </div>
+ <!-- -------------------------- -->
+    <div class="comment">
+    <div class="avatar">H</div>
+    <div class="comment-content">
+    <h4>Hamza <span class="date">3 month ago</span></h4>
+    <p>I come here every weekend, the vibes never disappoint.</p>
+    <button id="likeBtn" onclick="addLike(this)">Like ❤️ <span>0</span></button>
+    </div>
+    </div>
+
+
+<!-- add comment section -->
+ 
+    <div class="add-comment">
+      <h3>Write Your Comment</h3>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <textarea placeholder="Your Comment" rows="4" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+  </section>
+   <script src="project.js"></script>
+</body>
+</html>
